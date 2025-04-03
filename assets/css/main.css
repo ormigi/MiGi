@@ -4233,16 +4233,12 @@ input, select, textarea {
 					}
 
 				#footer > section.split.contact > section {
-					display: -moz-flex;
-					display: -webkit-flex;
-					display: -ms-flex;
-					display: flex;
-					-moz-align-items: center;
-					-webkit-align-items: center;
-					-ms-align-items: center;
-					align-items: center;
-					padding: 3.15rem 4rem;
-				}
+					display: flex;  /* Standard flex */
+                                        flex-direction: row;  /* Changed from column to row */
+                                        align-items: center;  /* Centers the content vertically */
+                                        justify-content: space-between;  /* Ensures items are spaced apart */
+                                        padding: 3.15rem 4rem;
+				        }
 
 					#footer > section.split.contact > section > * {
 						margin-bottom: 0;
