@@ -4211,10 +4211,10 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
+				-moz-flex-direction: row;
+				-webkit-flex-direction: row;
+				-ms-flex-direction: row;
+				flex-direction: row;
 				padding: 0;
 			}
 
@@ -4233,10 +4233,10 @@ input, select, textarea {
 					}
 
 				#footer > section.split.contact > section {
-					display: flex;  /* Standard flex */
-                                        flex-direction: row;  /* Changed from column to row */
-                                        align-items: center;  /* Centers the content vertically */
-                                        justify-content: space-between;  /* Ensures items are spaced apart */
+					display: flex;   
+                                        flex-direction: row;  
+                                        align-items: center;   
+                                        justify-content: space-between;   
                                         padding: 3.15rem 4rem;
 				        }
 
